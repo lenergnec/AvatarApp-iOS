@@ -17,25 +17,31 @@ struct LaunchScreen: View {
     var body: some View {
         
         if isActive{
-            LoginView()
+            Login()
         }
         else{
             
             ZStack(alignment: .center){
-                Color("Blue")
+                Color(ConstantsColors.colorTechBlue)
                     .ignoresSafeArea()
                 
                 VStack{
-                    Image("logoAvatar")
+                    Image(ConstantsLogos.logoWhite)
                         .resizable()
                         .frame(width: 150, height: 130)
                     
-                    Text("Welcome to Avatar")
+                    Text(ConstantsStrings.welcomeSplash)
                         .fontWeight(.bold)
                         .font(.system(size: 25))
-                        .foregroundColor(Color("WhiteNectar"))
+                        .foregroundColor(Color(ConstantsColors.colorWhiteCustom))
                         .multilineTextAlignment(.leading)
                         .padding(.top, 38.0)
+                    
+                    Text(ConstantsStrings.developed)
+                        .foregroundColor(Color(ConstantsColors.colorBlue))
+                        .font(.system(size: 12))
+                        .fontWeight(.bold)
+                        .padding()
                 }
                 .scaleEffect(size)
                 .opacity(opacity)

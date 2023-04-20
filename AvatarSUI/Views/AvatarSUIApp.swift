@@ -11,7 +11,9 @@ import SwiftUI
 struct AvatarSUIApp: App {
     var body: some Scene {
         WindowGroup {
-            LoginView()
+        LaunchScreen()
         }
     }
 }
+
+

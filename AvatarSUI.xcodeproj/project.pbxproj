@@ -7,20 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F1FFC0729EA01AB001EB9F2 /* InsuranceHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1FFC0629EA01AB001EB9F2 /* InsuranceHome.swift */; };
+		1F4BEA7329DF097400F222A1 /* HomeClinics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4BEA7229DF097400F222A1 /* HomeClinics.swift */; };
+		1F5AE0A429EF3AB400235A6C /* WebServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5AE0A329EF3AB400235A6C /* WebServices.swift */; };
+		1F5AE0A729EF3F5900235A6C /* InsuranceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5AE0A629EF3F5900235A6C /* InsuranceModel.swift */; };
+		1F5AE0A929EF434D00235A6C /* EnumValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5AE0A829EF434D00235A6C /* EnumValues.swift */; };
+		1F7AB42729ECB6610011663B /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7AB42629ECB6610011663B /* LoginModel.swift */; };
+		1F926A7929DF1A700074C5B4 /* PatientsHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F926A7829DF1A700074C5B4 /* PatientsHome.swift */; };
+		1F926A7B29DF25210074C5B4 /* HeaderHomeCapsuls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F926A7A29DF25210074C5B4 /* HeaderHomeCapsuls.swift */; };
+		1F926A7F29DF25C80074C5B4 /* ClinicsHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F926A7E29DF25C80074C5B4 /* ClinicsHome.swift */; };
 		1FB5710129C4F01A008C410B /* AvatarSUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB5710029C4F01A008C410B /* AvatarSUIApp.swift */; };
 		1FB5710329C4F01A008C410B /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB5710229C4F01A008C410B /* Login.swift */; };
 		1FB5710529C4F01B008C410B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FB5710429C4F01B008C410B /* Assets.xcassets */; };
 		1FB5710829C4F01B008C410B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FB5710729C4F01B008C410B /* Preview Assets.xcassets */; };
 		1FB5710F29C4F06F008C410B /* LaunchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB5710E29C4F06F008C410B /* LaunchScreen.swift */; };
+		1FCED5F929F0B7E700504283 /* StructsServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCED5F829F0B7E700504283 /* StructsServices.swift */; };
+		1FDB5AE929DCC28F0057173A /* TabMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDB5AE829DCC28F0057173A /* TabMenu.swift */; };
+		1FDB5AEC29DCD42A0057173A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDB5AEB29DCD42A0057173A /* Constants.swift */; };
+		1FDB5AEE29DCF02F0057173A /* HomePatients.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDB5AED29DCF02F0057173A /* HomePatients.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F08B33129F1788D00EC7A3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		1F1FFC0629EA01AB001EB9F2 /* InsuranceHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsuranceHome.swift; sourceTree = "<group>"; };
+		1F4BEA7229DF097400F222A1 /* HomeClinics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeClinics.swift; sourceTree = "<group>"; };
+		1F5AE0A329EF3AB400235A6C /* WebServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServices.swift; sourceTree = "<group>"; };
+		1F5AE0A629EF3F5900235A6C /* InsuranceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsuranceModel.swift; sourceTree = "<group>"; };
+		1F5AE0A829EF434D00235A6C /* EnumValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumValues.swift; sourceTree = "<group>"; };
+		1F7AB42629ECB6610011663B /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		1F926A7829DF1A700074C5B4 /* PatientsHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientsHome.swift; sourceTree = "<group>"; };
+		1F926A7A29DF25210074C5B4 /* HeaderHomeCapsuls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderHomeCapsuls.swift; sourceTree = "<group>"; };
+		1F926A7E29DF25C80074C5B4 /* ClinicsHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClinicsHome.swift; sourceTree = "<group>"; };
 		1FB570FD29C4F01A008C410B /* AvatarSUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AvatarSUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FB5710029C4F01A008C410B /* AvatarSUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarSUIApp.swift; sourceTree = "<group>"; };
 		1FB5710229C4F01A008C410B /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		1FB5710429C4F01B008C410B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1FB5710729C4F01B008C410B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1FB5710E29C4F06F008C410B /* LaunchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreen.swift; sourceTree = "<group>"; };
+		1FCED5F829F0B7E700504283 /* StructsServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructsServices.swift; sourceTree = "<group>"; };
+		1FDB5AE829DCC28F0057173A /* TabMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabMenu.swift; sourceTree = "<group>"; };
+		1FDB5AEB29DCD42A0057173A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		1FDB5AED29DCF02F0057173A /* HomePatients.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePatients.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,6 +61,86 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F4BEA7429DF18D400F222A1 /* TabViewsPages */ = {
+			isa = PBXGroup;
+			children = (
+				1F926A7D29DF25640074C5B4 /* CapsuleHome */,
+				1F926A7C29DF254B0074C5B4 /* GraphicsHome */,
+			);
+			path = TabViewsPages;
+			sourceTree = "<group>";
+		};
+		1F5AE0A029EF37A300235A6C /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				1F5AE0A229EF3A1F00235A6C /* Services */,
+				1F5AE0A129EF37AC00235A6C /* Headers */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		1F5AE0A129EF37AC00235A6C /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		1F5AE0A229EF3A1F00235A6C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				1F5AE0A329EF3AB400235A6C /* WebServices.swift */,
+				1FCED5F829F0B7E700504283 /* StructsServices.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		1F5AE0A529EF3F3100235A6C /* DataModels */ = {
+			isa = PBXGroup;
+			children = (
+				1F5AE0A629EF3F5900235A6C /* InsuranceModel.swift */,
+				1F5AE0A829EF434D00235A6C /* EnumValues.swift */,
+			);
+			path = DataModels;
+			sourceTree = "<group>";
+		};
+		1F7AB42429ECB64A0011663B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1F5AE0A529EF3F3100235A6C /* DataModels */,
+				1F7AB42529ECB6530011663B /* Login */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1F7AB42529ECB6530011663B /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				1F7AB42629ECB6610011663B /* LoginModel.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		1F926A7C29DF254B0074C5B4 /* GraphicsHome */ = {
+			isa = PBXGroup;
+			children = (
+				1FDB5AED29DCF02F0057173A /* HomePatients.swift */,
+				1F4BEA7229DF097400F222A1 /* HomeClinics.swift */,
+			);
+			path = GraphicsHome;
+			sourceTree = "<group>";
+		};
+		1F926A7D29DF25640074C5B4 /* CapsuleHome */ = {
+			isa = PBXGroup;
+			children = (
+				1F926A7A29DF25210074C5B4 /* HeaderHomeCapsuls.swift */,
+				1F926A7829DF1A700074C5B4 /* PatientsHome.swift */,
+				1F926A7E29DF25C80074C5B4 /* ClinicsHome.swift */,
+				1F1FFC0629EA01AB001EB9F2 /* InsuranceHome.swift */,
+			);
+			path = CapsuleHome;
+			sourceTree = "<group>";
+		};
 		1FB570F429C4F01A008C410B = {
 			isa = PBXGroup;
 			children = (
@@ -53,9 +160,11 @@
 		1FB570FF29C4F01A008C410B /* AvatarSUI */ = {
 			isa = PBXGroup;
 			children = (
-				1FB5710029C4F01A008C410B /* AvatarSUIApp.swift */,
-				1FB5710229C4F01A008C410B /* Login.swift */,
-				1FB5710E29C4F06F008C410B /* LaunchScreen.swift */,
+				1F08B33129F1788D00EC7A3B /* Info.plist */,
+				1F5AE0A029EF37A300235A6C /* Network */,
+				1F7AB42429ECB64A0011663B /* Models */,
+				1FDB5AEA29DCD4060057173A /* Constants */,
+				1FDB5AE729DCC0810057173A /* Views */,
 				1FB5710429C4F01B008C410B /* Assets.xcassets */,
 				1FB5710629C4F01B008C410B /* Preview Content */,
 			);
@@ -68,6 +177,26 @@
 				1FB5710729C4F01B008C410B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1FDB5AE729DCC0810057173A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1F4BEA7429DF18D400F222A1 /* TabViewsPages */,
+				1FB5710229C4F01A008C410B /* Login.swift */,
+				1FB5710E29C4F06F008C410B /* LaunchScreen.swift */,
+				1FB5710029C4F01A008C410B /* AvatarSUIApp.swift */,
+				1FDB5AE829DCC28F0057173A /* TabMenu.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1FDB5AEA29DCD4060057173A /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				1FDB5AEB29DCD42A0057173A /* Constants.swift */,
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,9 +269,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F5AE0A729EF3F5900235A6C /* InsuranceModel.swift in Sources */,
+				1F5AE0A929EF434D00235A6C /* EnumValues.swift in Sources */,
+				1F926A7B29DF25210074C5B4 /* HeaderHomeCapsuls.swift in Sources */,
+				1FDB5AEC29DCD42A0057173A /* Constants.swift in Sources */,
 				1FB5710329C4F01A008C410B /* Login.swift in Sources */,
+				1F7AB42729ECB6610011663B /* LoginModel.swift in Sources */,
 				1FB5710129C4F01A008C410B /* AvatarSUIApp.swift in Sources */,
+				1F1FFC0729EA01AB001EB9F2 /* InsuranceHome.swift in Sources */,
+				1F4BEA7329DF097400F222A1 /* HomeClinics.swift in Sources */,
+				1FDB5AE929DCC28F0057173A /* TabMenu.swift in Sources */,
+				1F926A7F29DF25C80074C5B4 /* ClinicsHome.swift in Sources */,
+				1F926A7929DF1A700074C5B4 /* PatientsHome.swift in Sources */,
+				1FCED5F929F0B7E700504283 /* StructsServices.swift in Sources */,
+				1FDB5AEE29DCF02F0057173A /* HomePatients.swift in Sources */,
 				1FB5710F29C4F06F008C410B /* LaunchScreen.swift in Sources */,
+				1F5AE0A429EF3AB400235A6C /* WebServices.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,6 +344,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
+				NEW_SETTING = "";
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -256,6 +399,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				NEW_SETTING = "";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -274,6 +418,7 @@
 				DEVELOPMENT_TEAM = 6H86R95BFT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AvatarSUI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +449,7 @@
 				DEVELOPMENT_TEAM = 6H86R95BFT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AvatarSUI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
