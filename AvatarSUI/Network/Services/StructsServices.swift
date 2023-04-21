@@ -8,12 +8,12 @@
 import Foundation
 
 struct LoginRequestBody: Codable{
-    let emailBody: String
-    let passwordBody: String
+    let email: String
+    let password: String
 }
 
 struct LoginResponse: Codable{
-    let token: String?
+    let access: String?
     let message: String?
     let succes: Bool? 
 }
